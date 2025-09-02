@@ -1,0 +1,21 @@
+{
+  "name": "play-app",
+  "version": "1.0.0",
+  "description": "a backend for youtube like video streaming application",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "video",
+    "app"
+  ],
+  "author": "Sudhanshu Vashisth",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
