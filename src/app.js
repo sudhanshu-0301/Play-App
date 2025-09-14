@@ -20,4 +20,12 @@ app.use(express.static("public")); // to serve static files from public
 
 app.use(cookieParser()); // to parse cookies in app requests
 
+// routes will be here
+
+import userRouter from "./routes/user.routes.js"
+
+//route declarations
+app.use("/api/v1/users", userRouter);
+
+
 export { app };
